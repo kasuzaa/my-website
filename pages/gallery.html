@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интерактивная галерея</title>
+    <link rel="stylesheet" href="../styles/gallery.css">
+</head>
+<body>
+    <div class="gallery-container">
+        <h1>Интерактивная галерея</h1>
+        
+        <div class="main-image-container">
+            <img id="mainImage" class="main-image" src="../images/1.jpeg" alt="Главное изображение">
+        </div>
+        
+        <div class="nav-buttons">
+            <button id="prevBtn">Назад</button>
+            <span id="imageCounter">1 / 4</span>
+            <button id="nextBtn">Вперед</button>
+        </div>
+        
+        <div class="thumbnails" id="thumbnailContainer"></div>
+    </div>
+    <script src="../scripts/gallery.js"></script>
+</body>
+</html>
