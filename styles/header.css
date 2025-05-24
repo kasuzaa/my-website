@@ -1,0 +1,36 @@
+.site-header {
+    background: #35424a;
+    color: white;
+    padding: 1rem 0;
+}
+
+.logo {
+    margin: 0;
+    display: inline-block;
+}
+
+.main-nav {
+    display: inline-block;
+    float: right;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 1.5rem;
+}
+
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-nav a:hover, .main-nav a.active {
+    color: #e8491d;
+}

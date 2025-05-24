@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.feature-card {
+    flex: 1;
+    padding: 1rem;
+    margin: 0 1rem;
+    background: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.hero {
+    padding: 2rem 0;
+    text-align: center;
+}
